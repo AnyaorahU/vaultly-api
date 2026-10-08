@@ -10,3 +10,4 @@ export const pool = new Pool({
   user: DB_USER,
   password: DB_PASSWORD,
 });
+console.log("Pool connecting to:", process.env.DB_NAME);
